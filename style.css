@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3d108c; /* Background color */
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color: #7d8390; /* Background color for container */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.37);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* TODO: Add styles for labels, inputs, buttons, and output text */
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #1a1901; /* Header color */
+}
+#copyBtn {
+    color:rgba(0, 0, 0, 0.37);
+    background-color: rgb(13, 243, 143);
+}
+
+/* Add more styles here as needed */
+#generateBtn {
+    color:rgb(20, 2, 2);
+    background-color: rgb(15, 172, 235);
+}
+#copyBtn {
+    color: rgb(15, 15, 14);
+    background-color: rgb(63, 5, 150);
+}
+button {
+    padding: 10px 15px;
+    margin: 5px;
+}
